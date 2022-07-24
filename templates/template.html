@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Blog Title</title>
+		<style type="text/css">
+			@import url(css/blog.css);
+		</style>
+		<script src="js/terminal.js"></script>
+		<script src="js/jquery.js"></script>
+	</head>
+
+	<body>
+		<div class="bar">
+			Blog Title
+		</div>
+
+		<div class="page">
+			{
+			<div class="space"></div>
+			<div class="post" id="{id}">
+				<div class="title">{title}
+					<a class="permalink" title="Permanent link to the {title} post." href="{link}">Π</a>
+					<div class="date">{date}</div>
+				</div>
+				<div class="content">
+					{content}
+				</div>
+
+				~{author}
+			</div>
+			}
+		</div>
+	</body>
+</html>

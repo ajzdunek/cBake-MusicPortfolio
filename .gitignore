@@ -1,0 +1,10 @@
+objects/
+build/
+index.html
+bake
+bake.exe
+*.netrec
+output/*.netrec
+output/*.html
+output/*.json
+output/*.rss
